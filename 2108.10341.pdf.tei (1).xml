@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Query Embedding Pruning for Dense Retrieval</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-08-23">23 Aug 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nicola</forename><surname>Tonellotto</surname></persName>
+							<email>nicola.tonellotto@unipi.it</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">University of Pisa, Italy</note>
+								<orgName type="institution">University of Pisa</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Craig</forename><surname>Macdonald</surname></persName>
+							<email>craig.macdonald@glasgow.ac.uk</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">University of Glasgow, UK</note>
+								<orgName type="institution">University of Glasgow</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Query Embedding Pruning for Dense Retrieval</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-08-23">23 Aug 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">60E23CD5D5B1DACAA7480C4498E79FAC</idno>
+					<idno type="arXiv">arXiv:2108.10341v1[cs.IR]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2023-01-10T09:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>CCS CONCEPTS</term>
+					<term>Information systems → Information retrieval</term>
+					<term>Information retrieval query processing</term>
+					<term>Retrieval models and ranking Query processing</term>
+					<term>Dynamic pruning</term>
+					<term>Dense retrieval</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Recent advances in dense retrieval techniques have offered the promise of being able not just to re-rank documents using contextualised language models such as BERT, but also to use such models to identify documents from the collection in the first place. However, when using dense retrieval approaches that use multiple embedded representations for each query, a large number of documents can be retrieved for each query, hindering the efficiency of the method. Hence, this work is the first to consider efficiency improvements in the context of a dense retrieval approach (namely ColBERT), by pruning query term embeddings that are estimated not to be useful for retrieving relevant documents. Our proposed query embeddings pruning reduces the cost of the dense retrieval operation, as well as reducing the number of documents that are retrieved and hence require to be fully scored. Experiments conducted on the MSMARCO passage ranking corpus demonstrate that, when reducing the number of query embeddings used from 32 to 3 based on the collection frequency of the corresponding tokens, query embedding pruning results in no statistically significant differences in effectiveness, while reducing the number of documents retrieved by 70%. In terms of mean response time for the end-to-end to end system, this results in a 2.65× speedup.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>

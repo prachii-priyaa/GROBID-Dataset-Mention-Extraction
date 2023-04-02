@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ASTERYX</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2021-10-26">2021-10-26</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Ryma</forename><surname>Boumazouza</surname></persName>
+							<email>boumazouza@cril.fr</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Univ. Artois, CNRS, CRIL Lens, France</note>
+								<orgName type="institution" key="instit1">Univ. Artois</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">CRIL Lens</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Fahima Cheikh-Alili</note>
+								<orgName type="institution">Fahima Cheikh-Alili</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Univ. Artois, CNRS, CRIL Lens, France</note>
+								<orgName type="institution" key="instit1">Univ. Artois</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">CRIL Lens</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Bertrand Mazure</note>
+								<orgName type="institution">Bertrand Mazure</orgName>
+							</affiliation>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">Univ. Artois, CNRS, CRIL Lens, France</note>
+								<orgName type="institution" key="instit1">Univ. Artois</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">CRIL Lens</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<note type="raw_affiliation">Karim Tabia</note>
+								<orgName type="institution">Karim Tabia</orgName>
+							</affiliation>
+							<affiliation key="aff6">
+								<note type="raw_affiliation">Univ. Artois, CNRS, CRIL Lens, France</note>
+								<orgName type="institution" key="instit1">Univ. Artois</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<orgName type="institution" key="instit3">CRIL Lens</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fahima</forename><surname>Cheikh-Alili</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bertrand</forename><surname>Mazure</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Karim</forename><surname>Tabia</surname></persName>
+						</author>
+						<title level="a" type="main">ASTERYX</title>
+					</analytic>
+					<monogr>
+						<title level="m">Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management</title>
+						<meeting>the 30th ACM International Conference on Information &amp; Knowledge Management						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2021-10-26" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">D11F0B486A1A80A3C7462062C86ACA88</idno>
+					<idno type="DOI">10.1145/3459637.3482321</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.2" ident="GROBID" when="2023-01-10T09:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>XAI</term>
+					<term>Symbolic explanations</term>
+					<term>Score-based explanation</term>
+					<term>Model-Agnostic</term>
+					<term>Satisfiability testing</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The ever increasing complexity of machine learning techniques used more and more in practice, gives rise to the need to explain the outcomes of these models, often used as black-boxes. Explainable AI approaches are either numerical feature-based aiming to quantify the contribution of each feature in a prediction or symbolic providing certain forms of symbolic explanations such as counterfactuals. This paper proposes a generic agnostic approach named ASTERYX allowing to generate both symbolic explanations and score-based ones. Our approach is declarative and it is based on the encoding of the model to be explained in an equivalent symbolic representation. This latter serves to generate in particular two types of symbolic explanations which are sufficient reasons and counterfactuals. We then associate scores reflecting the relevance of the explanations and the features w.r.t to some properties. Our experimental results show the feasibility of the proposed approach and its effectiveness in providing symbolic and score-based explanations. CCS CONCEPTS • Computing methodologies → Artificial intelligence; Machine learning.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>
